@@ -1,3 +1,4 @@
 ### This is a dictionary of books necessary to read to master hacking
+BookList = {
+  "Beyond Words":"manipulation mystery",
 
-{"Beyond Words":"manipulation mystery", "
