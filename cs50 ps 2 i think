@@ -1,0 +1,26 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int pyramidfunc(int height);
+
+int main(void)
+{
+    int h = get_int("Type in the desired height:");
+    int base = h;
+
+    int pyramidfunc(int height);
+    for (int brick = 1; brick != base; brick += 1) // initialize top brick, keep track of bricklayers
+    {
+        //int space = h - 1;
+        for (int space = (h-1); space != 0; space -= 1)
+        {
+            printf(" ");
+        }
+        for (int hash = 1; hash <= base; hash++)
+        {
+            printf("#");
+        }
+        printf("%d", brick);
+        printf("\n");
+    }
+}
